@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import ObjectMapper
 
 struct AchieveModel {
     var id = 0
@@ -32,14 +31,6 @@ struct AchieveModel {
             self.progress = self.total
         }
     }
-}
-
-extension AchieveModel: Mappable {
-    
-    
-    
-    init?(map: Map) {
-    }
     
     init?(map:Dictionary<String,Any>){
         if let id = map["id"] as? Int,
@@ -53,19 +44,9 @@ extension AchieveModel: Mappable {
             self = AchieveModel(id: id, level: level, backgroundImgUrl:bgImageURL, progress: progress, total: total, accessible: accessible)
             
             
-
+            
         }else{
             return nil
         }
     }
-    
-    mutating func mapping(map: Map) {
-        id       <- map["id"]
-        level     <- map["level"]
-        backgroundImgUrl     <- map["bg_image_url"]
-        progress     <- map["progress"]
-        total     <- map["total"]
-        accessible     <- map["accessible"]
-    }
-    
 }

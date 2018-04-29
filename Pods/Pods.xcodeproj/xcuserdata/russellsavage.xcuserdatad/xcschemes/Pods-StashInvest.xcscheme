@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "773219DD2E8F37F7F6E6E3C8A5F05415"
+               BlueprintIdentifier = "1724FB2EDAA5666D4ACB200A6AD13E16"
                BuildableName = "Pods_StashInvest.framework"
                BlueprintName = "Pods-StashInvest"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "773219DD2E8F37F7F6E6E3C8A5F05415"
+            BlueprintIdentifier = "1724FB2EDAA5666D4ACB200A6AD13E16"
             BuildableName = "Pods_StashInvest.framework"
             BlueprintName = "Pods-StashInvest"
             ReferencedContainer = "container:Pods.xcodeproj">

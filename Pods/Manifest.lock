@@ -2,27 +2,19 @@ PODS:
   - Alamofire (4.7.2)
   - AlamofireImage (3.3.1):
     - Alamofire (~> 4.5)
-  - ObjectMapper (3.1.0)
-  - YLProgressBar (3.10.2)
 
 DEPENDENCIES:
   - AlamofireImage
-  - ObjectMapper
-  - YLProgressBar
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - AlamofireImage
-    - ObjectMapper
-    - YLProgressBar
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
-  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
-  YLProgressBar: 365b6c5e934be18b661f79413db33c993c8e8251
 
-PODFILE CHECKSUM: 0600c444288824e5f7a9b2029263cffd6fc10b7b
+PODFILE CHECKSUM: 176a581e9bc0b17aecf15dc430d74d0bf9328af4
 
 COCOAPODS: 1.5.0
